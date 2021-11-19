@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/helloworld.h
+iostream
+-
+
+/mnt/d/project/C++/aliyun_code/server/backstrage/src/main.cpp
+helloworld.h
+-
+vector
+-
+
