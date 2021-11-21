@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Date.h
+copyable.h
+../include/copyable.h
+Types.h
+../include/Types.h
+
+../include/Types.h
+stdint.h
+-
+string.h
+-
+string
+-
+assert.h
+-
+
+../include/copyable.h
+
+/mnt/d/project/C++/aliyun_code/server/backstrage/muduo/base/src/Date.cc
+Date.h
+/mnt/d/project/C++/aliyun_code/server/backstrage/muduo/base/src/Date.h
+stdio.h
+-
+time.h
+-
+

@@ -60,28 +60,28 @@ include CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/src/helloword.cpp.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/src/helloword.cpp.o: ../src/helloword.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/project/C++/aliyun_code/server/backstrage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/helloworld.dir/src/helloword.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/src/helloword.cpp.o -c /mnt/d/project/C++/aliyun_code/server/backstrage/src/helloword.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/src/helloword.cpp.o -c /mnt/d/project/C++/aliyun_code/server/backstrage/src/helloword.cpp
 
 CMakeFiles/helloworld.dir/src/helloword.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/src/helloword.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/project/C++/aliyun_code/server/backstrage/src/helloword.cpp > CMakeFiles/helloworld.dir/src/helloword.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/project/C++/aliyun_code/server/backstrage/src/helloword.cpp > CMakeFiles/helloworld.dir/src/helloword.cpp.i
 
 CMakeFiles/helloworld.dir/src/helloword.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/src/helloword.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/project/C++/aliyun_code/server/backstrage/src/helloword.cpp -o CMakeFiles/helloworld.dir/src/helloword.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/project/C++/aliyun_code/server/backstrage/src/helloword.cpp -o CMakeFiles/helloworld.dir/src/helloword.cpp.s
 
 CMakeFiles/helloworld.dir/src/main.cpp.o: CMakeFiles/helloworld.dir/flags.make
 CMakeFiles/helloworld.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/project/C++/aliyun_code/server/backstrage/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/helloworld.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/src/main.cpp.o -c /mnt/d/project/C++/aliyun_code/server/backstrage/src/main.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloworld.dir/src/main.cpp.o -c /mnt/d/project/C++/aliyun_code/server/backstrage/src/main.cpp
 
 CMakeFiles/helloworld.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/project/C++/aliyun_code/server/backstrage/src/main.cpp > CMakeFiles/helloworld.dir/src/main.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/project/C++/aliyun_code/server/backstrage/src/main.cpp > CMakeFiles/helloworld.dir/src/main.cpp.i
 
 CMakeFiles/helloworld.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/project/C++/aliyun_code/server/backstrage/src/main.cpp -o CMakeFiles/helloworld.dir/src/main.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/project/C++/aliyun_code/server/backstrage/src/main.cpp -o CMakeFiles/helloworld.dir/src/main.cpp.s
 
 # Object files for target helloworld
 helloworld_OBJECTS = \

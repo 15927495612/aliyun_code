@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/mnt/d/project/C++/aliyun_code/server/backstrage/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/mnt/d/project/C++/aliyun_code/server/backstrage/include  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/helloworld.dir/src/helloword.cpp.o -c /mnt/d/project/C++/aliyun_code/server/backstrage/src/helloword.cpp",
+  "file": "/mnt/d/project/C++/aliyun_code/server/backstrage/src/helloword.cpp"
+},
+{
+  "directory": "/mnt/d/project/C++/aliyun_code/server/backstrage/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/mnt/d/project/C++/aliyun_code/server/backstrage/include  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/helloworld.dir/src/main.cpp.o -c /mnt/d/project/C++/aliyun_code/server/backstrage/src/main.cpp",
+  "file": "/mnt/d/project/C++/aliyun_code/server/backstrage/src/main.cpp"
+}
+]

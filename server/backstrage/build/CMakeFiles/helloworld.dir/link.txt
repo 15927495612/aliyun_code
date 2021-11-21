@@ -1,1 +1,1 @@
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/helloworld.dir/src/helloword.cpp.o CMakeFiles/helloworld.dir/src/main.cpp.o  -o ../bin/helloworld 
+/bin/x86_64-linux-gnu-g++-9  -O3 -DNDEBUG  -rdynamic CMakeFiles/helloworld.dir/src/helloword.cpp.o CMakeFiles/helloworld.dir/src/main.cpp.o  -o ../bin/helloworld 

@@ -1,5 +1,10 @@
 {
     "files.associations": {
-        "functional": "cpp"
+        "functional": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp"
     }
 }
