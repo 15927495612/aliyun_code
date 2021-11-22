@@ -3,10 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
                 "${workspaceFolder}/include",
                 "${workspaceFolder}/muduo/base/include",
-                "${workspaceFolder}/muduo/net/include"
+                "${workspaceFolder}/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
