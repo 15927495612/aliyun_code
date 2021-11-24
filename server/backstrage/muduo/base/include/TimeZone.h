@@ -15,7 +15,7 @@ public:
     explicit TimeZone(const char* zonefile);
     TimeZone(/* args */)=default;
     TimeZone(int eastOfUtc,const char* tzname);
-    bool vaild() const
+    bool valid() const
     {
         return static_cast<bool>(data_);
     }

@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "stdexcept": "cpp",
+        "*.tcc": "cpp",
+        "fstream": "cpp",
+        "iosfwd": "cpp",
+        "type_traits": "cpp"
+    }
+}
