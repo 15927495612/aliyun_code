@@ -33,7 +33,7 @@ public:
         std::swap(microSecondsSinceEpoch_,that.microSecondsSinceEpoch_);
     }
     string toString() const;
-    string toFromattedString(bool showMicroseconds = true) const;
+    string toFormattedString(bool showMicroseconds = true) const;
 
     bool vaild() const { return microSecondsSinceEpoch_; }
 
@@ -63,6 +63,16 @@ public:
         return Timestamp(static_cast<int64_t>(t) * kMicroSecondsPerSecond + microseconds);
     }
 };
+
+inline bool operator<(Timestamp lhs, Timestamp rhs)
+{
+  return lhs.microSecondsSinceEpoch() < rhs.microSecondsSinceEpoch();
+}
+
+inline bool operator==(Timestamp lhs, Timestamp rhs)
+{
+  return lhs.microSecondsSinceEpoch() == rhs.microSecondsSinceEpoch();
+}
     
 ///
 /// Gets time difference of two timestamps, result in seconds.
