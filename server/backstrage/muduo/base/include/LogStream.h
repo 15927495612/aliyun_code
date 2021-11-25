@@ -74,6 +74,7 @@ public:
 class LogStream : noncopyable
 {
     typedef LogStream self;
+public:
     typedef detail::FixedBuffer<detail::kSmallBuffer> Buffer;
 private:
     void staticCheck();
@@ -84,7 +85,7 @@ private:
 public:
     self& operator<<(bool v)
     {
-        buffer_.append(v?"1":'0',1);
+        buffer_.append(v ? "1" : "0",1);
         return *this;
     }
     self& operator<<(short);
